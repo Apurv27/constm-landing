@@ -70,7 +70,6 @@ const Footer = () => {
             >
               Contact Us
             </a>
-            git init
           </div>
         </div>
       </div>

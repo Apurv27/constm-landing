@@ -2,13 +2,16 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full bg-[#0F172A]/95 backdrop-blur-md text-white px-16 py-6 flex justify-between items-center fixed top-0 left-0 z-50 border-b border-gray-800">
+    <nav className="w-full bg-[#0F172A]/95 backdrop-blur-md text-white px-4 md:px-16 py-3 md:py-6 flex justify-between items-center fixed top-0 left-0 z-50 border-b border-gray-800">
       {/* Logo */}
-      <a href="/" className="text-4xl font-bold tracking-wide cursor-pointer">
+      <a
+        href="/"
+        className="text-2xl md:text-4xl font-bold tracking-wide cursor-pointer"
+      >
         Const<span className="text-yellow-400">_M</span>
       </a>
 
-      {/* Nav Links */}
+      {/* Nav Links (Desktop Only) */}
       <ul className="hidden md:flex gap-12 text-base font-medium items-center">
         <li>
           <a
@@ -52,7 +55,7 @@ const Navbar = () => {
         href="https://wa.me/917304272743"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-yellow-400 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition duration-300 shadow-lg"
+        className="bg-yellow-400 text-black px-4 md:px-8 py-2 md:py-3 rounded-lg text-sm md:text-base font-semibold hover:bg-yellow-300 transition duration-300 shadow-lg"
       >
         Book Demo
       </a>
