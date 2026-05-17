@@ -34,7 +34,9 @@ const Hero = () => {
 
             {/* Email Button */}
             <a
-              href="mailto:constM789@gmail.com"
+              href="https://youtu.be/Kngs6grFgCY"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-gray-500 px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition text-center"
             >
               Watch Demo
