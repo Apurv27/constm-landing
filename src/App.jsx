@@ -8,6 +8,7 @@ import DashboardPreview from "./components/DashboardPreview";
 import Pricing from "./components/Pricing";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import Developers from "./components/Developers";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <DashboardPreview />
         <Pricing />
         <CTA />
+        <Developers />
         <Footer />
       </main>
     </div>
